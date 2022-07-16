@@ -73,14 +73,14 @@ class App extends Component {
               href={whatsAppURL}
               rel="noreferrer"
               target='_blank'>
-              <Icon icon="bxl:whatsapp-square" color="#e74c3c" width="45" height="50" />
+              <Icon icon="bxl:whatsapp-square" color="#e74c3c" width="55" height="60" />
             </a>
 
             <a
               href={tweetURL}
               rel="noreferrer"
               target='_blank'>
-              <Icon icon={twitterSquare} color="#e74c3c" width="40" height="40" />
+              <Icon icon={twitterSquare} color="#e74c3c" width="50" height="50" />
             </a>
             <button
               id='new-quote'
