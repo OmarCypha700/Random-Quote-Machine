@@ -3,12 +3,13 @@ body{
   color: #e74c3c;
 }
 
+/*Button*/
 .new-quote{
  background-color: #e74c3c;
  color: white;
  border: none;
  border-radius: 3px;
- padding: 6px;
+ padding: 10px;
  float: right;
 }
 
