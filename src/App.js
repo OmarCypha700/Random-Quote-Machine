@@ -49,7 +49,6 @@ class App extends Component {
 
     return (
       <div>
-        <h4 id='header'>Random Quote Generator</h4>
         <div
           id='quote-box'
           className="quote-box">
