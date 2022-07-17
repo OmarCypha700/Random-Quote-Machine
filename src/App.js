@@ -90,6 +90,8 @@ class App extends Component {
             </button>
           </div>
         </div>
+        <br />
+        <h4>by Omar Cypha</h4>
 
       </div>
     );
