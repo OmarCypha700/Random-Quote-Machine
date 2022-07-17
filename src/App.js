@@ -80,7 +80,7 @@ class App extends Component {
               href={tweetURL}
               rel="noreferrer"
               target='_blank'>
-              <Icon icon={twitterSquare} color="#e74c3c" width="50" height="50" />
+              <Icon icon={twitterSquare} color="#e74c3c" width="45" height="45" />
             </a>
             <button
               id='new-quote'
@@ -90,9 +90,15 @@ class App extends Component {
             </button>
           </div>
         </div>
-        <br />
-        <h4>by Omar Cypha</h4>
-
+        <div id='creator'> 
+          <p>by <a 
+              href='https://github.com/OmarCypha700'
+              rel="noreferrer"
+              target='_blank'>
+                OmarCypha
+                </a>
+          </p>
+          </div>
       </div>
     );
   }
