@@ -53,3 +53,18 @@ p{
 #creator a{
     color: whitesmoke;
   }
+
+  #header{
+    position: absolute;
+    padding-top: 7rem;
+    margin-left: 33vw;
+    color: whitesmoke;
+    font-size: 1.7rem;
+    font-weight: bold;
+  }
+   @media screen and (max-width:480px) {
+    #header{
+      margin-left: 12vw;
+      font-size: 1.5rem;
+    }
+  }
