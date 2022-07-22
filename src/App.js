@@ -76,7 +76,8 @@ class App extends Component {
               <Icon icon="bxl:whatsapp-square" color="#e74c3c" width="55" height="60" />
             </a>
 
-            <a
+            <a 
+              id='tweet-quote'
               href={tweetURL}
               rel="noreferrer"
               target='_blank'>
